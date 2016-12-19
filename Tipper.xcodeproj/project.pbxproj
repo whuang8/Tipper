@@ -12,6 +12,7 @@
 		2693843C1DEFF38D0078886F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2693843A1DEFF38D0078886F /* Main.storyboard */; };
 		2693843E1DEFF38D0078886F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2693843D1DEFF38D0078886F /* Assets.xcassets */; };
 		269384411DEFF38D0078886F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2693843F1DEFF38D0078886F /* LaunchScreen.storyboard */; };
+		26B256FF1E05F923004DE042 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B256FE1E05F923004DE042 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2693843D1DEFF38D0078886F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		269384401DEFF38D0078886F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		269384421DEFF38D0078886F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B256FE1E05F923004DE042 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				269384361DEFF38D0078886F /* AppDelegate.swift */,
 				269384381DEFF38D0078886F /* ViewController.swift */,
 				2693843A1DEFF38D0078886F /* Main.storyboard */,
+				26B256FE1E05F923004DE042 /* SettingsViewController.swift */,
 				2693843D1DEFF38D0078886F /* Assets.xcassets */,
 				2693843F1DEFF38D0078886F /* LaunchScreen.storyboard */,
 				269384421DEFF38D0078886F /* Info.plist */,
@@ -91,7 +94,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "William Huang";
 				TargetAttributes = {
 					269384321DEFF38D0078886F = {
@@ -139,6 +142,7 @@
 			files = (
 				269384391DEFF38D0078886F /* ViewController.swift in Sources */,
 				269384371DEFF38D0078886F /* AppDelegate.swift in Sources */,
+				26B256FF1E05F923004DE042 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +186,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -231,6 +236,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -300,6 +306,7 @@
 				269384471DEFF38D0078886F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
